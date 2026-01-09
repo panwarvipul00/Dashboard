@@ -149,14 +149,14 @@ const TreeItem = ({
     );
   }
 
-  // If it's a Node (parent)
+
   return (
     <div className="select-none">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center gap-2 px-2 py-1.5 text-[13px] font-semibold text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group"
       >
-        {/* Toggle Icon or Spacer */}
+
         <div className="w-4 flex justify-center shrink-0">
           <FiChevronRight className={`text-gray-400 transition-transform duration-200 ${isOpen ? 'rotate-90' : ''}`} />
         </div>
@@ -164,7 +164,7 @@ const TreeItem = ({
         {icon && <span className="text-gray-500">{icon}</span>}
         <span className="truncate">{label}</span>
 
-        {/* Add Plus icon for adding if needed, mocked for now as hinted in image */}
+
         <span className="ml-auto opacity-0 group-hover:opacity-100 text-gray-400 text-xs">+</span>
       </button>
 
@@ -173,7 +173,7 @@ const TreeItem = ({
           }`}
       >
         <div className="overflow-hidden">
-          <div className="flex flex-col ml-[19px] border-l border-gray-200 pl-1 py-0.5">
+          <div className="flex flex-col ml-[19px] border-l border-gray-300 pl-1 py-0.5">
             {children}
           </div>
         </div>
