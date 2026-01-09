@@ -35,4 +35,4 @@ This is a responsive dashboard project built with React and Tailwind CSS. It fea
 3.  Open http://localhost:5173 to view it in the browser.
 
 ---
-*Created for the Dashboard Assignment.*
+
