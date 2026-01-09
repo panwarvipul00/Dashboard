@@ -32,7 +32,7 @@ This is a responsive dashboard project built with React and Tailwind CSS. It fea
     npm run dev
     ```
 
-3.  Open http://localhost:5173 to view it in the browser.
+3.  Open https://dashboard-omega-gilt-80.vercel.app/ to view it in the browser.
 
 ---
 
