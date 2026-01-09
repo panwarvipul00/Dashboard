@@ -57,7 +57,7 @@ export const SmallStatCard = ({ title, value, change, isPositive, meta, isActive
 
 export const TopSalesCard = () => {
     return (
-        <div className="bg-white p-5 rounded-[1.5rem] shadow-card hover:shadow-card-hover transition-shadow duration-300 h-full flex flex-row items-center justify-between min-w-[220px]">
+        <div className="bg-white p-5 rounded-[1.5rem] shadow-card hover:shadow-card-hover transition-shadow duration-300 h-full flex flex-row items-center justify-between">
             <div className="flex flex-col justify-between h-full">
                 <h3 className="text-gray-400 text-xs font-bold">Top sales</h3>
                 <div className="text-3xl font-extrabold text-gray-800 my-1">72</div>
@@ -78,7 +78,7 @@ export const TopSalesCard = () => {
 
 export const BestDealCard = () => {
     return (
-        <div className="bg-[#111] p-5 rounded-[1.5rem] shadow-card text-white h-full relative overflow-hidden flex flex-row items-center justify-between min-w-[240px] group">
+        <div className="bg-[#111] p-5 rounded-[1.5rem] shadow-card text-white h-full relative overflow-hidden flex flex-row items-center justify-between group">
             <div className="flex flex-col justify-between h-full z-10">
                 <div className="flex items-center gap-1">
                     <h3 className="text-gray-400 text-xs font-bold">Best deal</h3>
